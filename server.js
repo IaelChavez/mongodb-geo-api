@@ -13,8 +13,8 @@ mongoose.connect(
   { useNewUrlParser: true }
 ).then(
   () => { /** ready to use. The `mongoose.connect()` promise resolves to mongoose instance. */ 
-          app.listen(4000, ()=>{
-              console.log('Server running on http://172.18.69.161:4000');
+          app.listen(4001, ()=>{
+              console.log('Server running on http://172.18.69.22:4001');
           })
   },
   err => { /** handle initial connection error */ 

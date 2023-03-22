@@ -5,4 +5,5 @@ router.get('/all', UserController.findAllUsers);
 router.get('/:id', UserController.findById);
 router.post('/add', UserController.addUser);
 router.put('/updateUserLocation', UserController.updateUserLocation);
+router.get('/byusername/:username', UserController.findByUsername);
 module.exports = router;
